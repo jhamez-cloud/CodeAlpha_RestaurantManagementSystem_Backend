@@ -1,4 +1,4 @@
-# Restaurant Management System Backend API
+### Restaurant Management System Backend API ###
 
 A backend REST API for managing restaurant operations including orders, menu items, tables, reservations, inventory tracking, and automated stock deduction. Built with Django and Django REST Framework.
 
