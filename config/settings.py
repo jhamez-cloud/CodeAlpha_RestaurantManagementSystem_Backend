@@ -240,3 +240,14 @@ UNFOLD = {
         ],
     },
 }
+
+# REST Framework Settings
+
+REST_FRAMEWORK = {
+    "DEFAULT_PERMISSION_CLASSES" : [
+        "rest_framework.permissions.AllowAny", ### change to IsAuthenticated in production
+    ],
+    "DEFUALT_AUTHENTICATION_CLASSES" : [
+        "rest_framework_simplejwt.authentication.JWTAuthentication",
+    ]
+}
